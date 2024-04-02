@@ -1,9 +1,9 @@
 from django.urls import path, include
-from django.conf import settings
-from django.conf.urls.static import static
 from . import views
 
+app_name = 'products'
+
 urlpatterns = [
-    path('', views.home, name='home'),
-    # Incluir otras partes de la aplicación 'products' aquí
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('', views.home, name='home'),  # Por ejemplo, la URL raíz ('/') apunta a la vista 'home'
+    path('catalog/', include('products.catalog.urls')),  # Incluye las URLs de la app 'catalog' dentro de 'products'
+]

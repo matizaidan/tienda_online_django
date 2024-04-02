@@ -1,0 +1,152 @@
+/* Estilos para el perfil */
+.profile-container {
+    max-width: 400px;
+    margin: 50px auto; /* Centrar el perfil y dar espacio superior */
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Estilos para los títulos y los nombres en el perfil */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    margin-bottom: 10px;
+}
+
+.profile-info strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilos para los enlaces de cambio de contraseña y actualización de perfil */
+.profile-links a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile-links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* Estilos para el formulario de registro */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+    color: #f00;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* Estilos para el formulario de cambio de contraseña */
+form#change-password-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form#change-password-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form#change-password-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#change-password-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el formulario de actualización de perfil */
+form#update-profile-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form#update-profile-form input[type="text"],
+form#update-profile-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form#update-profile-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#update-profile-form button:hover {
+    background-color: #45a049;
+}
+

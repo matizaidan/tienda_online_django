@@ -1,0 +1,17 @@
+/* Estilos para la página de detalle de producto */
+
+.container {
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.stock {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}

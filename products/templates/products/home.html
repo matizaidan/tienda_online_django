@@ -1,17 +1,51 @@
 {% extends 'base.html' %}
-
-{% block title %}
-    Inicio - Mi Tienda en Línea
-{% endblock %}
+{% load static %}
 
 {% block content %}
-<section class="welcome">
-    <h2>Bienvenido a nuestra tienda en línea</h2>
-    <p>¡Encuentra todo lo que necesitas y más!</p>
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    <!-- Agregar Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+{% endblock %}
+
+<section class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">¡Bienvenido a nuestra tienda en línea!</h1>
+        <p class="lead">Encuentra todo lo que necesitas y más.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Productos Destacados</h2>
+            <div class="card">
+                <img src="{% static 'img/product1.jpg' %}" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 1</h5>
+                    <p class="card-text">Descripción corta del producto.</p>
+                    <a href="#" class="btn btn-primary">Ver Producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>Ofertas Especiales</h2>
+            <div class="card">
+                <img src="{% static 'img/product2.jpg' %}" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 2</h5>
+                    <p class="card-text">Descripción corta del producto.</p>
+                    <a href="#" class="btn btn-primary">Ver Producto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <h2>Información Adicional</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id nulla sit amet dui varius tempus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id nulla sit amet dui varius tempus.</p>
+        </div>
+    </div>
 </section>
 
-<section class="additional-info">
-    <h2>Información Adicional</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id nulla sit amet dui varius tempus.</p>
-</section>
 {% endblock %}

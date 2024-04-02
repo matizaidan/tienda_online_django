@@ -1,0 +1,50 @@
+/* Estilos para el título */
+.navbar-brand {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-right: auto; /* Empuja el elemento hacia la izquierda */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: rgba(255, 140, 82, 0.908); /* Color de fondo oscuro para la barra de navegación */
+    color: white; /* Color del texto en la barra de navegación */
+    border-bottom: 1px solid #ccc; /* Añadir una línea de borde en la parte inferior */
+    display: flex; /* Usa flexbox para el diseño de la barra de navegación */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del eje principal con espaciado uniforme */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Relleno interno de 10px arriba-abajo y 20px izquierda-derecha */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-nav {
+    display: flex; /* Usa flexbox para los enlaces */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+}
+
+.nav-item {
+    margin-right: 20px; /* Espacio a la derecha de cada enlace */
+}
+
+.nav-link {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px 15px; /* Relleno interno de 10px arriba-abajo y 15px izquierda-derecha */
+}
+
+/* Estilos para el contenido */
+.container {
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color:  rgba(255, 140, 82, 0.908); /* Color de fondo oscuro para el pie de página */
+    color: white; /* Color del texto en el pie de página */
+    text-align: center; /* Alineación centrada */
+    padding: 20px 0; /* Relleno interno de 20px arriba-abajo y 0 a los lados */
+}
