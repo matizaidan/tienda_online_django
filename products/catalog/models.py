@@ -26,6 +26,7 @@ class Product(models.Model):
         return self.name
 
     def save(self, *args, **kwargs):
+        # Generar slug automáticamente si no está definido
         if not self.slug:
             self.slug = slugify(self.name)
         super(Product, self).save(*args, **kwargs)
