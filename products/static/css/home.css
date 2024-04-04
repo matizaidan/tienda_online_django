@@ -2,8 +2,9 @@
 
 /* Estilos para la sección jumbotron */
 .jumbotron {
-    background-color: #f8f9fa; /* Color de fondo */
-    padding: 20px;
+    
+    background-color: #100f0f32; /* Color de fondo */
+    padding: 40px;
     margin-bottom: 20px;
     border-radius: 5px;
     text-align: center;
